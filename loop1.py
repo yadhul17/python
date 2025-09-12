@@ -32,18 +32,38 @@
 # print("sum=",sum)
 
 #sum of odd number and even number and all numbers
-a=int(input("enter the number:"))
-b=int(input("enter the number:"))
-oddsum=0
-evensum=0
-for i in range (a,b+1):
-    if(i%2!=0):
-        oddsum=oddsum+i
-    else:
-        evensum=evensum+i
+# a=int(input("enter the number:"))
+# b=int(input("enter the number:"))
+# oddsum=0
+# evensum=0
+# for i in range (a,b+1):
+#     if(i%2!=0):
+#         oddsum=oddsum+i
+#     else:
+#         evensum=evensum+i
 
-print("oddsum=",oddsum)
-print("evensum=",evensum)
-print("total sum=",oddsum+evensum)
+# print("oddsum=",oddsum)
+# print("evensum=",evensum)
+# print("total sum=",oddsum+evensum)
+
+
+# l=[1,2,3,4,'hello']
+# sum=0
+# for i in l:
+#     try:
+#         sum+=i
+#     except:
+#         print(i)
+# print(sum) 
+
+
+while(True):
+    try:
+        i=int(input("enter:"))
+    except:
+        print("error")
+    else:
+        break
+
     
 
