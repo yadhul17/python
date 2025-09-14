@@ -1,5 +1,5 @@
 b=[]
-l=[]
+
 def addstaff(id,name,dept):
     
      b.append({'staffid':id,'staffname':name,'department':dept})
@@ -27,6 +27,7 @@ while True:
         for i in b:
             print(i)
     if ch==4:
+        l=[]
         dep = input("Enter your department: ")
         flag = False
    
@@ -61,7 +62,7 @@ while True:
             new_name = input("Enter the new name: ")
             for staff in b:
                 if staff.get('staffid') == idn:
-                    staff['staffname'] = new_name     
+                    staff.update(staffname=new_name)  
         elif choice == 2:
             
             idn=int(input("enter the id to update:"))
