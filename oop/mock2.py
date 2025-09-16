@@ -3,14 +3,6 @@ b=[]
 def addstaff(id,name,dept):
     
      b.append({'staffid':id,'staffname':name,'department':dept})
-
-   
-
-    
-        
-
-
-
 while True:
     print('''1.add staf
           2.view all staf
