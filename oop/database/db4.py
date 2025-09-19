@@ -1,0 +1,10 @@
+import sqlite3
+con= sqlite3.connect('student.db')
+cur = con.cursor()
+cur.execute("create table if not exists std5(id int primary key,name text,department text)")
+# cur.execute("insert into std5 values('1','yadhu','d')")
+con.commit()
+# cur.execute("alter table std5 add column age int")
+# cur.execute("alter table std5 rename column name to employe")
+# cur.execute("alter table std5 drop column age")
+# cur.execute("alter table  std5 rename to std6")
